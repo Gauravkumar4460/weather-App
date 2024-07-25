@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    width: 250px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+#search{
+    background-color: skyblue;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+}
+#search:hover{
+    cursor: pointer;
+}
+#weather-report{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container-image{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
